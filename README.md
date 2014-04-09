@@ -1,7 +1,17 @@
 docker-etcd
 ===========
 
+HERE BE DRAGONS
+===============
+
 Tiny etcd configurations are tiny.
+
+  * etcd
+  * open-ssh
+
+Requires that an authorized_keys file is present in the DockerFile dir.
+
+Note: Exposed ssh into the container to debug / troubleshoot.
 
 Build
 =====
